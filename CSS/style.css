@@ -76,7 +76,7 @@
 		padding-left:15px;
 		padding-right:15px;
 		font-size: 15px;
-		font-family: 'Roboto Mono', monospace;
+		font-family: 'Baloo Chettan 2', cursive;
 		display: block;
 		font-weight: bolder;
 	}
@@ -88,6 +88,14 @@
 	/*End Nav bar*/
 
 	/*Index page*/
+
+	hr{
+		border-style: none;
+		border-top-style: dotted;
+		border-color: grey;
+		border-width: 10px;
+		width: 7%;
+	  }
 
 	h3{
 		font-size: 25px;
@@ -168,7 +176,7 @@
 		font-size: large;
 	
 	}
-	
+
 	#foot-index{
 		transform: translateX(-15%);
 	}
@@ -192,6 +200,20 @@
 	.interest-title{
 		padding:10px;
 	}
+
+	.publication-title{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.publication-link{
+		font-size: 20px;
+	}
+
+	.interest-title{
+		padding:10px;
+	}
+
 	/*End Index page*/
 	
 	/*Body container*/
@@ -200,7 +222,7 @@
 		width:80%;
 		background-color:#f9f9f9;
 		margin:auto;
-		font-family: 'Roboto Mono', monospace;
+		font-family: 'Baloo Chettan 2', cursive;
 		box-shadow: 10px 10px 20px gray;
 		border-radius:10px;
 		margin-bottom: 10%;
@@ -214,7 +236,7 @@
 		width:98%;
 		background-color:white;
 		margin:auto;
-		font-family: 'Roboto Mono', monospace;
+		font-family: 'Baloo Chettan 2', cursive;
 		box-shadow: 10px 10px 20px gray;
 	}
 	
@@ -290,9 +312,9 @@
 	  align-items: center;
 	  position: relative;
 	  cursor: pointer;
-		color: black;
-		background-color: #f7e9c3;
-		font-family: 'Roboto Mono', monospace;
+	color: black;
+	background-color: #f7e9c3;
+	font-family: 'Baloo Chettan 2', cursive;
 	}
 	
 	.accordion-item-header:hover{
@@ -319,7 +341,7 @@
 	  font-size:20px;
 	  border-top: 1px solid;
 	  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
-	  font-family: 'Roboto Mono', monospace;
+	  font-family: 'Baloo Chettan 2', cursive;
 	}
 	
 	@media(max-width:767px) {
@@ -565,27 +587,3 @@
 }
 
 /*End of Gallery*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
