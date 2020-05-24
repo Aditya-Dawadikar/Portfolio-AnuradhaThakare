@@ -269,7 +269,14 @@
 		padding-top:30px;
 	}
 	
-	
+	.footer a{
+		text-decoration: none;
+		color:black;
+	}
+
+	.footer a:hover{
+		color:orange;
+	}
 	
 	.footer-foot{
 		min-height: 30px;
@@ -305,20 +312,21 @@
 	  border-radius:10px;
 	}
 	.accordion-item-header {
-	  padding: 0.5rem 3rem 0.5rem 1rem;
-	  min-height: 3.5rem;
-	  line-height: 3rem;
-	  font-size:20px;
-	  align-items: center;
-	  position: relative;
-	  cursor: pointer;
-	color: black;
-	background-color: #f7e9c3;
-	font-family: 'Baloo Chettan 2', cursive;
+		padding: 0.5rem 3rem 0.5rem 1rem;
+		min-height: 3.5rem;
+		line-height: 3rem;
+		font-size:20px;
+		align-items: center;
+		position: relative;
+		cursor: pointer;
+		color: black;
+		background-color: #f7e9c3;
+		font-family: 'Baloo Chettan 2', cursive;
 	}
 	
 	.accordion-item-header:hover{
 		background-color:white;
+		color:orange;
 	}
 	
 	.accordion-item-header::after {
@@ -440,19 +448,18 @@
 }
 
 .column img {	
-  	margin-top: 10px;
-  	margin-bottom: 10px;
-  	margin-left:10px;
-  	margin-right:10px;
+	margin:10px;
   	vertical-align: middle;
   	width: 90%;
 	box-shadow: 10px 10px 20px gray;
+	position:relative;
 }
 
 .img-container{
 	background: white;
 	position:relative;
 	padding:10px auto;
+	min-width:100px;
 	min-height: 100px;
 	box-shadow: 5px 10px 20px gray;
 	margin-bottom: 10px;
@@ -511,6 +518,7 @@
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
+
 	#profile-pic{
 		transform: translateX(-7%);
 	}
@@ -523,6 +531,7 @@
 	.body-container{
 		margin-top: 30px;
 		margin-bottom: 140px;
+		font-size: 20px;
 	}
 
 	.accordion-item-header::after {
