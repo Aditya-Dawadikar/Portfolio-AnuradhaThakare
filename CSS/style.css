@@ -128,8 +128,19 @@
 		text-align: center;
 	}
 
+	.about{
+		margin-left:auto;
+		margin-right:auto;
+	}
+
 	.about .heading{
 		text-align: center;
+	}
+
+	.about .row{
+		margin-left:auto;
+		margin-right:auto;
+		position: relative;
 	}
 
 	.about .col{
@@ -139,7 +150,8 @@
 	.about ul{
 		list-style: none;
 		width:200px;
-		margin:auto;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 	.about ul li{
@@ -605,7 +617,7 @@
 		background: white;
 		position:relative;
 		padding:10px auto;
-		min-width:70px;
+		width:90%;
 		min-height: auto;
 		box-shadow: 5px 10px 20px gray;
 		margin-bottom: 10px;
@@ -633,6 +645,15 @@
 
 	.about{
 		font-size: 10px;
+	}
+
+	.about .row{
+		transform: translateX(-9%);
+	}
+
+	.about ul{
+		margin-right: auto;
+		margin-left:auto;
 	}
 
 	.publication-title{
