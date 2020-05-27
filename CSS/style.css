@@ -351,7 +351,23 @@
 	
 	/*End footer*/
 	
-	
+	/*contact*/
+	.contact-form{
+		width:90%;
+		height: 900px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:30px;
+		overflow: hidden;
+		border-radius: 20px;
+	}
+
+
+
+	/*End of contact*/	
+
+
+
 	/*Accordions*/
 	@import url('https://fonts.googleapis.com/css?family=Montserrat');
 	
@@ -434,6 +450,18 @@
 	
 	.row #r1, #r2, #r3, #r4, #r5{
 		width:100%;
+	}
+
+	#award-vid{
+		width:50%;
+		height: 200px;
+	}
+
+	#award-vid iframe{
+		width:300px;
+		height: 200px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	
 	#c1, #c2, #c3,#c4,#c5 {
@@ -538,6 +566,7 @@
 	transform: scale(2);
 	z-index: 1;
 }
+
 
 /*-----------------------------------------------------------*/
 /*responsive navbar*/
