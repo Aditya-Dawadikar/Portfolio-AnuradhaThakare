@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea id="text" name="w3review" rows="4" cols="50"></textarea>
+    <button onclick="translate1()">translate</button>
+    <div id="j"></div>
+</body>
+<script>
+    
+
+    function translate1(){
+        var textarea = document.getElementById('text').value;
+        let a = textarea.split('\n');
+        var j = document.getElementById('j');
+        for(let i=0;i<a.length;i++){
+            let elem = document.createElement('li');
+            elem.innerHTML='"'+a[i]+'",';
+            j.appendChild(elem);
+        }
+        console.log(a);
+    }
+</script>
+
+</html>
